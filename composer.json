@@ -1,13 +1,10 @@
 {
-    "name": "andrefigueira/blog-article-faker",
+    "name": "mynamespace/blog-article-faker",
     "description": "Generate random blog article titles and content (including markdown) using faker",
     "keywords": ["faker", "fixtures", "data", "blog", "news", "article"],
     "require": {
-        "fakerphp/faker": "~1.18",
+        "fakerphp/faker": "^1.18",
         "php": ">=7.1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0"
     },
     "autoload": {
         "psr-4": {
